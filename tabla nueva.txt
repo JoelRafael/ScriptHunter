@@ -1,0 +1,11 @@
+ CREATE TABLE [dbo].[tb_periodos] (
+  pe_codigo        INT PRIMARY KEY IDENTITY,
+  pe_cod_empresa   INT,
+  pe_periodo       INT,
+  pe_fecha_trans   DATETIME,
+  pe_fecha         DATETIME,
+  pe_fecha_cierre  DATETIME,
+  pe_estado        VARCHAR(1),
+  pe_operador      VARCHAR(50),
+  pe_terminal      VARCHAR(50)
+  )
